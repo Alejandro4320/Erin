@@ -15,7 +15,7 @@ Adafruit_DCMotor *motorLeft = AFMS.getMotor(3);
 
 // Keypress read through the serial monitor
 long input_distance;
-double wheel_circum = 12.57;
+double wheel_circum = 12.57; // i got 12.25 for the circumfrance. I might want to check this again later AM
 double encoder_counts;
 // variables to store the number of encoder pulses
 // for each motor
