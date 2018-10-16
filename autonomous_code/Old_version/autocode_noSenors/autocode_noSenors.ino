@@ -67,7 +67,7 @@ void setup()
   Serial.begin(9600);
 
   motorLeft->setSpeed(255);
-  motorRight->setSpeed(227);
+  motorRight->setSpeed(255);
   delay(1000);
 }
 
