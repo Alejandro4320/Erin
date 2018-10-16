@@ -86,7 +86,7 @@ void loop()
   }
   // Convert input distance to enoder counts
   // To get 12,000 is 12 multiplied by the gear ratio which is 1000:1
-  // whell_circum is the circumerence of the wheel
+  // wheel_circum is the circumerence of the wheel
   encoder_counts = (((input_distance * 11500) / wheel_circum)) / 2;
 
   if(rightCount>=encoder_counts || leftCount>=encoder_counts){                     
