@@ -167,8 +167,8 @@ void loop()
 
 
 void goForward(long input, double encoder_input){
-  
-  if(rightCount>=encoder_counts || leftCount>=encoder_counts || d0 <= 350 || d1 <= 350 || d2 <= 350 || d3<= 350){                      
+  Serial.Println(d0);
+  if(rightCount>=encoder_counts || leftCount>=encoder_counts || d0 <= 716 || d1 <= 716 || d2 <= 716 || d3<= 716){                      
     motorLeft->run(RELEASE);                     // Set the motor directions
     motorRight->run(RELEASE);
     rightCount = encoder_counts + 1 ;
