@@ -149,8 +149,8 @@ void loop()
 //  }
   // Convert input distance to enoder counts
   // To get 12,000 is 12 multiplied by the gear ratio which is 1000:1
-  // whell_circum is the circumerence of the wheel
-  encoder_counts = (((input_distance * 11500) / wheel_circum)) / 2;
+  // wheel_circum is the circumerence of the wheel
+  encoder_counts = (((input_distance * 12000) / wheel_circum)) / 2;
 
   d0 = analogRead(IR_PIN0);
   d1 = analogRead(IR_PIN1);
